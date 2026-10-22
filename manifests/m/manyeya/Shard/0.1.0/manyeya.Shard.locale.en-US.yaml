@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+PackageIdentifier: manyeya.Shard
+PackageVersion: 0.1.0
+PackageLocale: en-US
+Publisher: The Shard Authors
+PublisherUrl: https://github.com/manyeya/shard
+PublisherSupportUrl: https://github.com/manyeya/shard/issues
+PackageName: Shard
+PackageUrl: https://manyeya.github.io/shard/
+License: MIT OR Apache-2.0
+LicenseUrl: https://github.com/manyeya/shard/blob/main/LICENSE-MIT
+ShortDescription: Download manager that fetches every file in parallel parts and resumes after anything
+Description: Shard splits every download into parts fetched over parallel connections, resumes after pauses and crashes, and takes downloads over from the browser extension.
+Moniker: shard
+Tags:
+  - download-manager
+  - downloader
+  - segmented-download
+ReleaseNotesUrl: https://github.com/manyeya/shard/releases/tag/v0.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
